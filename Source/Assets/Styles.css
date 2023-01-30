@@ -1,0 +1,82 @@
+.wppt-title {
+  font-weight: bold;
+  padding: 10px;
+  font-size: 16pt;
+  display: block;
+}
+.wppt-form-questions {
+  padding: 15px;
+}
+.wppt-form-question {
+  padding: 10px;
+}
+.wppt-navigation {
+  display: flex;
+  padding: 10px;
+  margin-top: 10px;
+  gap: 10px;
+  flex-direction: row;
+  align-items: center;
+}
+.wppt-button{
+  font-size: 16px;
+  line-height: 1.2!important;
+  font-weight: 400;
+  font-style: normal;
+  text-transform: none;
+  letter-spacing: 0em;
+  border-radius: 12px;
+  padding: 1em 2em;
+  background: #192B3B;
+  border-color: transparent;
+  color: #ffffff!important;
+}
+.wppt-button:hover {
+  background: #ffffff;
+  border-color: #192B3B;
+  color: #192B3B!important;
+}
+.wppt-button-link {
+  color: #FFF!important;
+}
+.wppt-button-link:hover {
+  color: #000!important;
+}
+.wppt-test-name {
+  font-size: 18pt;
+  font-weight: bold;
+  padding: 5px;
+}
+.wppt-questuions-wrapper{
+
+}
+.wppt-results-wrapper {
+  display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    gap: 25px;
+}
+.wppt-test {
+  padding: 10px;
+background: #fafafa;
+border-radius: 16px;
+}
+.wppt-questuions-wrapper {
+  padding: 10px;
+      margin-left: 10px;
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      gap: 10px;
+}
+.wppt-questuion-name {
+      font-weight: 600;
+}
+
+.wppt-questuion-counter {
+  border: 1px solid #dfdddd;
+      border-radius: 8px;
+      padding: 5px;
+      text-align: end;
+      background: #bcffca;
+}
