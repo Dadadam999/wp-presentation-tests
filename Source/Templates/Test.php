@@ -25,7 +25,7 @@
                   {
                      ?>
                      <div class="wppt-form-question">
-                        <input type="checkbox" name="wppt-question-<?= $number; ?>" value="select">
+                        <input type="radio" name="wppt-question-<?= $number; ?>" value="select">
                         <label for="question-<?= $number; ?>"><?= $question['name'] ?></label>
                      </div>
                      <?php
